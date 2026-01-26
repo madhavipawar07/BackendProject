@@ -5,9 +5,7 @@ import connectDB from './db/index.js';
 //import mongoose from 'mongoose'
 
 //import { DB_NAME } from './constants'
-dotenv.config({
-    path : './env'
-})
+dotenv.config()
 
 
 connectDB()
